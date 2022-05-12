@@ -1,0 +1,9 @@
+$(function(){
+	$(".mainAll-li").click(function(){
+		if($(this).next().hasClass("folding-show")){
+			$(this).next().removeClass('folding-show').addClass("folding-hide")
+		}else{
+			$(this).next().addClass('folding-show').removeClass('folding-hide')
+		}
+	})
+})

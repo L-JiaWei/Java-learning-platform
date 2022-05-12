@@ -1,0 +1,341 @@
+header {
+    height: 72px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+
+header>.headerin {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header>.headerin>.logo {
+    background: url(../img/logohere.png) no-repeat;
+    width: 80px;
+    height: 40px;
+    float: left;
+    position: relative;
+    left: 16px;
+    margin: 16px 0;
+}
+
+.headerin>nav {
+    float: left;
+    width: 650px;
+    height: 72px;
+}
+
+.headerin>nav>.navul {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+
+.headerin>nav>.navul>li {
+    float: left;
+}
+
+.headerin>nav>.navul>li>a {
+    display: block;
+    width: 120px;
+    text-align: center;
+    font: 16px/72px Microsoft yahei;
+}
+
+.headerin>nav>.navul>li>a.curr {
+    color: #f33;
+}
+
+.headerin>.searchbox {
+    width: 270px;
+    height: 72px;
+    float: left;
+}
+
+.headerin>.searchbox>.searcharea {
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 16px auto;
+}
+
+.headerin>.searchbox>.searcharea>.search {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: #9199a1;
+    background: #f3f5f6;
+    text-indent: 1em;
+    cursor: pointer;
+}
+
+.headerin>.searchbox>.searcharea>.iconsrh>img {
+    position: relative;
+    top: -35px;
+    left: 235px;
+    cursor: pointer;
+}
+
+.headerin>.buyicon {
+    float: left;
+    width: 200px;
+    height: 72px;
+}
+
+.headerin>.buyicon>a {
+    font: 16px/72px Microsoft yahei;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+}
+
+.headerin>.buyicon>a>img {
+    margin-left: 10px;
+}
+
+.headerin>.login {
+    width: 140px;
+    height: 72px;
+    float: left;
+}
+
+.headerin>.login>a {
+    display: block;
+    width: 35px;
+    text-align: center;
+    font: 14px/72px Microsoft yahei;
+    float: right;
+    margin-left: 8px;
+}
+
+.headerin>.login>span {
+    color: #9199a1;
+    display: block;
+    line-height: 72px;
+    margin: 0px 10px 0 17px;
+    float: right;
+}
+
+
+/*主内容*/
+
+.main {
+    width: 100%;
+}
+
+.main>.banner {
+    width: 1920px;
+    position: relative;
+    overflow: visible;
+    left: 50%;
+    margin-left: -876px;
+}
+
+.main>.banner>.mulu {
+    position: absolute;
+    top: 15px;
+    left: 300px;
+    z-index: 5;
+    color: #ffffff80;
+}
+
+.main>.banner>.mulu>a {
+    color: #ffffff80;
+}
+
+.main>.banner>.mulu>a:hover {
+    color: #fff;
+}
+
+.main>.banner>.statistical {
+    position: absolute;
+    top: 185px;
+    left: 300px;
+    z-index: 5;
+    color: #fff;
+}
+
+.main>.mulu {
+    width: 100%;
+    height: 72px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 0 rgb(28 31 33 / 12%);
+}
+
+.main>.mulu>.muul {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+    margin-left: 187px;
+}
+
+.main>.mulu>.muul>li {
+    float: left;
+    width: 150px;
+}
+
+.main>.mulu>.muul>li>a {
+    margin-top: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    font: 16px/52px Microsoft yahei;
+    font-weight: bold;
+}
+
+.main>.mulu>.muul>li>a.active {
+    border-bottom: 3px solid #ff3333;
+    ;
+    color: #ff3333;
+}
+
+.main>.mainAll {
+    width: 1200px;
+    display: flex;
+    margin: 50px auto;
+}
+
+.main>.mainAll>.mianLeft {
+    width: 100%;
+}
+
+.main>.mainAll>.mianLeft>.chapter {
+    margin-bottom: 10px;
+    padding: 30px 50px 30px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 16px 0 rgb(28 31 33 / 12%);
+}
+
+.main>.mainAll>.mianLeft>.chapter>h3 {
+    font: 16px/24px Microsoft yahei;
+    font-weight: bold;
+}
+
+.main>.mainAll>.mianLeft>.chapter>.article {
+    color: #545c63;
+    margin-top: 3px;
+    font: 12px/15px Microsoft yahei;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul {
+    padding-top: 16px;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul>li {
+    background: #f8f8f8;
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 5px;
+    font: 14px/60px Microsoft yahei;
+    cursor: pointer;
+    position: relative;
+    border-radius: 8px;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul>li>.folding {
+    display: inline-block;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul>li>.folding p:hover {
+    color: #eb4c3d;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul>li .btn {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #eb4c3d;
+    border-radius: 5px;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul>li .btn:hover {
+    background: #b22b1a;
+}
+
+.main>.mainAll>.mianLeft>.chapter>ul>li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #f33;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.folding-cont {
+    padding: 10px 30px 30px;
+    display: inline-block;
+}
+
+.folding-cont p {
+    margin-left: 43px;
+    font-size: 14px;
+}
+
+.folding-hide {
+    display: none;
+}
+
+.folding-show {
+    display: block;
+}
+
+.folding-title {
+    color: #999;
+}
+
+.folding-txt {
+    margin-top: 5px;
+    color: #000;
+}
+
+.folding-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* 页脚 */
+
+footer {
+    background: #000;
+}
+
+footer>.container {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+footer>.container>p {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+}
+
+footer>.container>span {
+    float: right;
+    line-height: 60px;
+    margin: 0 40px 0 0;
+}
+
+footer>.container>span>img {
+    padding-left: 4px;
+    opacity: 0.7;
+}
+
+footer>.container>span>img:hover {
+    opacity: 1;
+    cursor: pointer;
+}

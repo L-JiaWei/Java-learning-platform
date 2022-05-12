@@ -1,0 +1,446 @@
+header {
+    height: 72px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+
+header>.headerin {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header>.headerin>.logo {
+    background: url(../img/logohere.png) no-repeat;
+    width: 80px;
+    height: 40px;
+    float: left;
+    position: relative;
+    left: 16px;
+    margin: 16px 0;
+}
+
+.headerin>nav {
+    float: left;
+    width: 650px;
+    height: 72px;
+}
+
+.headerin>nav>.navul {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+
+.headerin>nav>.navul>li {
+    float: left;
+}
+
+.headerin>nav>.navul>li>a {
+    display: block;
+    width: 120px;
+    text-align: center;
+    font: 16px/72px Microsoft yahei;
+}
+
+.headerin>nav>.navul>li>a.curr {
+    color: #f33;
+}
+
+.headerin>.searchbox {
+    width: 270px;
+    height: 72px;
+    float: left;
+}
+
+.headerin>.searchbox>.searcharea {
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 16px auto;
+}
+
+.headerin>.searchbox>.searcharea>.search {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: #9199a1;
+    background: #f3f5f6;
+    text-indent: 1em;
+    cursor: pointer;
+}
+
+.headerin>.searchbox>.searcharea>.iconsrh>img {
+    position: relative;
+    top: -35px;
+    left: 235px;
+    cursor: pointer;
+}
+
+.headerin>.buyicon {
+    float: left;
+    width: 200px;
+    height: 72px;
+}
+
+.headerin>.buyicon>a {
+    font: 16px/72px Microsoft yahei;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+}
+
+.headerin>.buyicon>a>img {
+    margin-left: 10px;
+}
+
+.headerin>.login {
+    width: 140px;
+    height: 72px;
+    float: left;
+}
+
+.headerin>.login>a {
+    display: block;
+    width: 35px;
+    text-align: center;
+    font: 14px/72px Microsoft yahei;
+    float: right;
+    margin-left: 8px;
+}
+
+.headerin>.login>span {
+    color: #9199a1;
+    display: block;
+    line-height: 72px;
+    margin: 0px 10px 0 17px;
+    float: right;
+}
+
+
+/* banner+遮罩 */
+
+#silder {
+    width: 100%;
+    height: 400px;
+    overflow: visible;
+    position: relative;
+}
+
+#silder>.banner {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+#silder>.con {
+    width: 1200px;
+    height: 120px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 250px;
+    box-shadow: 0 8px 16px 0 rgb(28 31 33 / 12%);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#silder>.con>.itemBox {
+    width: 570px;
+    height: 64px;
+    display: flex;
+}
+
+#silder>.con>.itemBox>.item {
+    width: 96px;
+    height: 64px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#silder>.con>.itemBox>.item>span {
+    font-size: 12px;
+    color: #f33;
+    font-weight: bold;
+    text-align: center;
+}
+
+#silder>.con>.itemBox>.item>span:last-of-type {
+    font: 14px/22px Microsoft yahei;
+    color: #1c1f21;
+}
+
+#silder>.con>.itemBox>.item>span>em {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+#silder>.con>.btn {
+    width: 320px;
+    height: 50px;
+    display: flex;
+}
+
+#silder>.con>.btn>a {
+    display: block;
+    width: 142px;
+    height: 50px;
+    border-radius: 24px;
+    background: #f33;
+    color: #fff;
+    font: 16px/50px Microsoft yahei;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.main {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto 20px;
+}
+
+.main>.coursebox {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 16px 0 rgb(28 31 33 / 12%);
+    position: relative;
+}
+
+.main>.coursebox>img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.main>.coursebox>span {
+    font-size: 24px;
+    position: relative;
+    top: 26px;
+    left: 55px;
+    font-weight: bold;
+}
+
+.main>.coursebox>.courdesc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+
+.main>.coursebox>.courdesc>.left {
+    width: 660px;
+}
+
+.main>.coursebox>.courdesc>.left>p {
+    font: 14px/35px Microsoft yahei;
+    text-indent: 1em;
+}
+
+
+/* 课程核心 */
+
+.main>.coursecore {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 16px 0 rgb(28 31 33 / 12%);
+    margin: 40px auto;
+    position: relative;
+}
+
+.main>.coursecore>img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    left: 68px;
+}
+
+.main>.coursecore>h4 {
+    font-size: 24px;
+    color: #000;
+    margin: 0px 20px 18px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+
+.main>.coursecore>h4>span {
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.main>.coursecore>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main>.coursecore>div>.outline,
+.main>.coursecore>div>.course-skill {
+    margin-bottom: 40px;
+}
+
+.main>.coursecore>div>.outline>h5 {
+    width: 101px;
+    height: 26px;
+    background: url(../img/core.png) center bottom no-repeat;
+    padding-left: 15px;
+    color: #442A74;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+    position: relative;
+    left: 5px;
+}
+
+.main>.coursecore>div>.outline>.outline-list {
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    padding: 20px 0 20px 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.main>.coursecore>div>.outline>.outline-list>p {
+    font-size: 18px;
+    color: #5E5E5E;
+    padding-left: 42px;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.main>.coursecore>div>.outline>.outline-list>p:hover {
+    transform: translateX(20px);
+}
+
+.main>.coursecore>div>.outline>.outline-list>p>i {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    top: 5px;
+    left: 25px;
+}
+
+.main>.coursecore>div>.course-skill>h5 {
+    width: 124px;
+    height: 26px;
+    background: url(../img/core.png) center bottom no-repeat;
+    padding-left: 15px;
+    color: #442A74;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+    position: relative;
+    left: -5px;
+}
+
+.main>.coursecore>div>.course-skill>h5:nth-of-type(1) {
+    background: url(../img/core2.png) center bottom no-repeat;
+}
+
+.main>.coursecore>div>.course-skill>h5:nth-of-type(2) {
+    background: url(../img/core3.png) center bottom no-repeat;
+    width: 144px;
+}
+
+.main>.coursecore>div>.course-skill>ul {
+    width: 600px;
+    height: 152px;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px 0 25px 28px;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+
+.main>.coursecore>div>.course-skill>ul>li {
+    font-size: 18px;
+    color: #5E5E5E;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.main>.coursecore>div>.course-skill>ul>li:hover {
+    transform: translateX(20px);
+}
+
+.main>.coursecore>div>.course-skill>.features {
+    width: 600px;
+    background: #f8f8f8;
+    height: 220px;
+    box-sizing: border-box;
+    padding: 20px 25px 25px 28px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    color: #5E5E5E;
+    display: flex;
+    line-height: 1.5;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+
+/* 页脚 */
+
+footer {
+    background: #000;
+}
+
+footer>.container {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+footer>.container>p {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+}
+
+footer>.container>span {
+    float: right;
+    line-height: 60px;
+    margin: 0 40px 0 0;
+}
+
+footer>.container>span>img {
+    padding-left: 4px;
+    opacity: 0.7;
+}
+
+footer>.container>span>img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
